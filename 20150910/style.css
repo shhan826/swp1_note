@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 5px;
+  background-color: #373D50;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  padding: 5px;
+  line-height: 30px;
+}
+
+nav h1 {
+  color: #5A5A5A;
+}
+
+nav a {
+  color: #A0AABF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.content {
+  overflow: hidden;
+}
+
+section {
+  padding: 40px;
+  background-color: #E3E7F4;
+  border-bottom: 4px solid white;
+  color: #333;
+}
+
+footer {
+  padding: 20px;
+  background-color: #373D50;
+  color: white;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.album {
+  width: 650px;
+  height: 400px;
+  padding: 110px 50px;
+  background: url("http://goo.gl/hNy7pg") no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.album .member {
+  color: white;
+  font-size: 14px;
+}
+
+.album .title {
+  opacity: 0.5;
+  margin: 15px 0px;
+  padding: 25px 0px;
+  background-color: #000;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.album .group {
+  color : blanchedalmond;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.highlight .title:hover {
+  background-color: #00A2C5;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}
